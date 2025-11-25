@@ -634,38 +634,5 @@ footer p {
 
 
 
-section i {
-    position: absolute;
-    background: white;
-    border-radius: 50%;
-    z-index: 0;
-
-    box-shadow: 0 0 10px white,
-        0 0 20px white,
-        0 0 40px white,
-        0 0 80px white;
-    ;
-    animation: stars linear infinite;
-
-}
-
-@keyframes stars {
-    0% {
-        opacity: 0;
-    }
-
-    10% {
-        opacity: 1;
-    }
-
-    90% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
 
         
